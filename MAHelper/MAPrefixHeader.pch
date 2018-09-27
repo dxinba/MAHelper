@@ -1,0 +1,52 @@
+//
+//  MAPrefixHeader.pch
+//  homeplus
+//
+//  Created by v on 16/7/12.
+//  Copyright © 2016年 homeplus. All rights reserved.
+//
+
+#ifndef MAPrefixHeader_pch
+#define MAPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "UIView+XMGExtension.h"
+#import <NIMSDK/NIMSDK.h>
+#import <NIMAVChat/NIMAVChat.h>
+#import "NIMKit.h"
+
+#import <UMAnalytics/MobClick.h>
+
+#import "UIColor+Hex.h"
+#import <Masonry.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+
+#import "UtilsMacros.h"
+#import "HPHeader.h"
+
+//#import "EFNetworking.h"
+#import "HDNetworking.h"
+#import "CommonNoRecordView.h"
+#import "Prot.h"
+#import <UIImageView+WebCache.h>
+#import <MJExtension.h>
+#import <SVProgressHUD.h>
+#import "NSObject+Extension.h"
+#import "CommonMethod.h"
+
+#import <YYKit.h>
+#import <MJRefresh.h>
+#import <MBProgressHUD.h>
+#import "UIViewController+HPMainNewBtn.h"
+#import "RDVTabBarController.h"
+
+#import "URLMacros.h"
+
+
+
+
+
+#endif
+#endif

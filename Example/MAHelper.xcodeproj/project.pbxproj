@@ -15,6 +15,10 @@
 		15E79F83215B8A3400F60DFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79F82215B8A3400F60DFD /* main.m */; };
 		15E79F8D215B8A3400F60DFD /* MAHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79F8C215B8A3400F60DFD /* MAHelperTests.m */; };
 		15E79F98215B8A3400F60DFD /* MAHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79F97215B8A3400F60DFD /* MAHelperUITests.m */; };
+		15E79FAC215B8C8100F60DFD /* WebServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FAA215B8C8000F60DFD /* WebServiceBase.m */; };
+		15E79FAF215B8CC100F60DFD /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FAD215B8CC000F60DFD /* UIView+XMGExtension.m */; };
+		15E79FBE215B8E7600F60DFD /* PhoneCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FBA215B8E7500F60DFD /* PhoneCodeButton.m */; };
+		15E79FBF215B8E7600F60DFD /* TwoImgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FBD215B8E7500F60DFD /* TwoImgButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,18 @@
 		15E79F93215B8A3400F60DFD /* MAHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E79F97215B8A3400F60DFD /* MAHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAHelperUITests.m; sourceTree = "<group>"; };
 		15E79F99215B8A3400F60DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E79FAA215B8C8000F60DFD /* WebServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceBase.m; sourceTree = "<group>"; };
+		15E79FAB215B8C8100F60DFD /* WebServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceBase.h; sourceTree = "<group>"; };
+		15E79FAD215B8CC000F60DFD /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		15E79FAE215B8CC100F60DFD /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		15E79FBA215B8E7500F60DFD /* PhoneCodeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCodeButton.m; sourceTree = "<group>"; };
+		15E79FBB215B8E7500F60DFD /* TwoImgButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoImgButton.h; sourceTree = "<group>"; };
+		15E79FBC215B8E7500F60DFD /* PhoneCodeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCodeButton.h; sourceTree = "<group>"; };
+		15E79FBD215B8E7500F60DFD /* TwoImgButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoImgButton.m; sourceTree = "<group>"; };
+		15E79FC1215B8EB600F60DFD /* UtilsMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		15E79FC3215B8EE100F60DFD /* MAPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPrefixHeader.pch; sourceTree = "<group>"; };
+		15E79FC4215B8EE100F60DFD /* MAHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHeader.h; sourceTree = "<group>"; };
+		15E79FC6215C711600F60DFD /* URLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		15E79F72215B8A2E00F60DFD /* MAHelper */ = {
 			isa = PBXGroup;
 			children = (
+				15E79FA5215B8B9A00F60DFD /* MAHelper */,
 				15E79F73215B8A2E00F60DFD /* AppDelegate.h */,
 				15E79F74215B8A2E00F60DFD /* AppDelegate.m */,
 				15E79F76215B8A2E00F60DFD /* ViewController.h */,
@@ -130,6 +147,50 @@
 				15E79F99215B8A3400F60DFD /* Info.plist */,
 			);
 			path = MAHelperUITests;
+			sourceTree = "<group>";
+		};
+		15E79FA5215B8B9A00F60DFD /* MAHelper */ = {
+			isa = PBXGroup;
+			children = (
+				15E79FC4215B8EE100F60DFD /* MAHeader.h */,
+				15E79FC3215B8EE100F60DFD /* MAPrefixHeader.pch */,
+				15E79FC1215B8EB600F60DFD /* UtilsMacros.h */,
+				15E79FB9215B8E7500F60DFD /* UIKit */,
+				15E79FA9215B8C6300F60DFD /* Manager */,
+				15E79FA6215B8B9E00F60DFD /* Categories */,
+			);
+			name = MAHelper;
+			path = ../../MAHelper;
+			sourceTree = "<group>";
+		};
+		15E79FA6215B8B9E00F60DFD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				15E79FAE215B8CC100F60DFD /* UIView+XMGExtension.h */,
+				15E79FAD215B8CC000F60DFD /* UIView+XMGExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		15E79FA9215B8C6300F60DFD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				15E79FC6215C711600F60DFD /* URLMacros.h */,
+				15E79FAB215B8C8100F60DFD /* WebServiceBase.h */,
+				15E79FAA215B8C8000F60DFD /* WebServiceBase.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		15E79FB9215B8E7500F60DFD /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				15E79FBC215B8E7500F60DFD /* PhoneCodeButton.h */,
+				15E79FBA215B8E7500F60DFD /* PhoneCodeButton.m */,
+				15E79FBB215B8E7500F60DFD /* TwoImgButton.h */,
+				15E79FBD215B8E7500F60DFD /* TwoImgButton.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15E79F78215B8A2E00F60DFD /* ViewController.m in Sources */,
+				15E79FAF215B8CC100F60DFD /* UIView+XMGExtension.m in Sources */,
+				15E79FAC215B8C8100F60DFD /* WebServiceBase.m in Sources */,
+				15E79FBF215B8E7600F60DFD /* TwoImgButton.m in Sources */,
 				15E79F83215B8A3400F60DFD /* main.m in Sources */,
+				15E79FBE215B8E7600F60DFD /* PhoneCodeButton.m in Sources */,
 				15E79F75215B8A2E00F60DFD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "MAHelper"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MAHelper."
+  s.summary      = "MAHelper is a mix tool for Objective-C coder."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -132,6 +132,8 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "AFNetworking", "~> 3.2.1"
+  s.dependency "FMDB", "~> 2.7.2"
+  s.dependency "YYKit", "~> 1.0.9"
 
 end
