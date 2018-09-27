@@ -7,7 +7,7 @@
 //
 
 #import "PhoneCodeButton.h"
-
+#import "UIColor+Hex.h"
 @interface PhoneCodeButton ()
 @property (nonatomic, strong, readwrite) NSTimer *timer;
 @property (assign, nonatomic) NSTimeInterval durationToValidity;

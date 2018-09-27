@@ -38,22 +38,22 @@
     [self addSubview:self.staticLabel];
     [self addSubview:self.titleLabel];
     [self addSubview:self.rightImgView];
-    [self.leftImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.bottom.mas_equalTo(self).with.mas_offset(0);
-    }];
-    [self.staticLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.leftImgView.mas_right).with.mas_offset(5);
-        make.top.bottom.mas_equalTo(self).with.mas_offset(0);
-        make.right.mas_equalTo(self.titleLabel.mas_left).with.mas_offset(0);
-    }];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.staticLabel.mas_right).with.mas_offset(0);
-        make.top.bottom.mas_equalTo(self).with.mas_offset(0);
-        make.right.mas_equalTo(self.rightImgView.mas_left).with.mas_offset(-5);
-    }];
-    [self.rightImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.top.bottom.mas_equalTo(self).with.mas_offset(0);
-    }];
+//    [self.leftImgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.top.bottom.mas_equalTo(self).with.mas_offset(0);
+//    }];
+//    [self.staticLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(self.leftImgView.mas_right).with.mas_offset(5);
+//        make.top.bottom.mas_equalTo(self).with.mas_offset(0);
+//        make.right.mas_equalTo(self.titleLabel.mas_left).with.mas_offset(0);
+//    }];
+//    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(self.staticLabel.mas_right).with.mas_offset(0);
+//        make.top.bottom.mas_equalTo(self).with.mas_offset(0);
+//        make.right.mas_equalTo(self.rightImgView.mas_left).with.mas_offset(-5);
+//    }];
+//    [self.rightImgView mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.top.bottom.mas_equalTo(self).with.mas_offset(0);
+//    }];
     self.userInteractionEnabled = YES;
     self.leftImgView.userInteractionEnabled = YES;
     self.staticLabel.userInteractionEnabled = YES;

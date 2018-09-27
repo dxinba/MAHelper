@@ -19,6 +19,7 @@
 		15E79FAF215B8CC100F60DFD /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FAD215B8CC000F60DFD /* UIView+XMGExtension.m */; };
 		15E79FBE215B8E7600F60DFD /* PhoneCodeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FBA215B8E7500F60DFD /* PhoneCodeButton.m */; };
 		15E79FBF215B8E7600F60DFD /* TwoImgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FBD215B8E7500F60DFD /* TwoImgButton.m */; };
+		15E79FCE215C7E7700F60DFD /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E79FCC215C7E7700F60DFD /* UIColor+Hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		15E79FC3215B8EE100F60DFD /* MAPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPrefixHeader.pch; sourceTree = "<group>"; };
 		15E79FC4215B8EE100F60DFD /* MAHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHeader.h; sourceTree = "<group>"; };
 		15E79FC6215C711600F60DFD /* URLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		15E79FCC215C7E7700F60DFD /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		15E79FCD215C7E7700F60DFD /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 		15E79FA6215B8B9E00F60DFD /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				15E79FCD215C7E7700F60DFD /* UIColor+Hex.h */,
+				15E79FCC215C7E7700F60DFD /* UIColor+Hex.m */,
 				15E79FAE215B8CC100F60DFD /* UIView+XMGExtension.h */,
 				15E79FAD215B8CC000F60DFD /* UIView+XMGExtension.m */,
 			);
@@ -328,6 +333,7 @@
 				15E79FAC215B8C8100F60DFD /* WebServiceBase.m in Sources */,
 				15E79FBF215B8E7600F60DFD /* TwoImgButton.m in Sources */,
 				15E79F83215B8A3400F60DFD /* main.m in Sources */,
+				15E79FCE215C7E7700F60DFD /* UIColor+Hex.m in Sources */,
 				15E79FBE215B8E7600F60DFD /* PhoneCodeButton.m in Sources */,
 				15E79F75215B8A2E00F60DFD /* AppDelegate.m in Sources */,
 			);
